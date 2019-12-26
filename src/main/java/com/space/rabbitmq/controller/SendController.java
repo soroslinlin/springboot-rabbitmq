@@ -22,6 +22,6 @@ public class SendController {
     public String send(String message){
         String uuid = UUID.randomUUID().toString();
         firstSender.send(uuid,message);
-        return uuid;
+        return uuid;//
     }
 }
